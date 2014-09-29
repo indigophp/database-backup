@@ -1,7 +1,7 @@
 {
-    "name": "indigophp/backup",
+    "name": "indigophp/database-backup",
     "type": "project",
-    "description": "Simple database backup script from Phake and Backup Manager",
+    "description": "Simple database backup script using Phake and Backup Manager",
     "license": "MIT",
     "keywords": ["backup", "database"],
     "homepage": "https://indigophp.com",

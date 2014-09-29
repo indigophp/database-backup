@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Indigo Backup package.
+ * This file is part of the Indigo Database Backup package.
  *
  * (c) Indigo Development Team
  *

@@ -2,9 +2,9 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-Check the current [todo list](https://github.com/indigophp/backup/blob/develop/TODO.md).
+Check the current [todo list](https://github.com/indigophp/database-backup/blob/develop/TODO.md).
 
-We accept contributions via Pull Requests on [Github](https://github.com/indigophp/backup).
+We accept contributions via Pull Requests on [Github](https://github.com/indigophp/database-backup).
 
 
 ## Pull Requests
