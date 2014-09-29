@@ -143,10 +143,14 @@ task('manager', 'env', function($app) {
 
 desc('Run database backups');
 task('backup', 'manager', function($app) {
+    $app['climate']->info('<blue>Backing up "'.$app['env'].'" environment.</blue>');
+
     $app['manager']->makeBackup()->run(
         $app['config']->get($app['env'], 'database'),
         $app['config']->get($app['env'], 'storage'),
         $app['config']->get($app['env'], 'destination'),
         $app['config']->get($app['env'], 'compression')
     );
+
+    $app['climate']->shout('<green>Backup successfully finished.</green>');
 });
