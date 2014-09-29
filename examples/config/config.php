@@ -10,10 +10,10 @@
  */
 
 return [
-	'development' => [
-		'database'    => 'development',
-		'storage'     => 'local',
-		'destination' => 'development_'.date('Ymd_His').'.sql',
-		'compression' => 'null',
-	],
+    'development' => [
+        'database'    => 'development',
+        'storage'     => 'local',
+        'destination' => 'development_'.date('Ymd_His').'.sql',
+        'compression' => 'null',
+    ],
 ];

@@ -10,8 +10,8 @@
  */
 
 return [
-	'local' => [
-		'type' => 'Local',
-		'root' => '/tmp',
-	],
+    'local' => [
+        'type' => 'Local',
+        'root' => '/tmp',
+    ],
 ];
