@@ -1,0 +1,22 @@
+{
+    "name": "indigophp/backup",
+    "type": "project",
+    "description": "Simple database backup script from Phake and Backup Manager",
+    "license": "MIT",
+    "keywords": ["backup", "database"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "jaz303/phake": "dev-master",
+        "heybigname/backup-manager": "~0.3.0",
+        "league/climate": "~2.1.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
